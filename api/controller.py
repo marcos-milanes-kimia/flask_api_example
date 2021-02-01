@@ -19,4 +19,4 @@ def optimal_bid():
 
         dum_operation = sample_function(par_1 = float(json_data['par_1']),
                                     par_2 = float(json_data['par_2']))
-        return jsonify({'result': f"{dum_operation:.2f}"})
+        return jsonify({'result': dum_operation})
